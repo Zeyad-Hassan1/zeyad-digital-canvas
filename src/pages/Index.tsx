@@ -8,7 +8,7 @@ import BackToTop from "@/components/BackToTop";
 
 const Index = () => {
   return (
-    <main className="min-h-screen bg-background">
+    <main id="top" className="min-h-screen bg-background">
       <Hero />
       <About />
       <Skills />
