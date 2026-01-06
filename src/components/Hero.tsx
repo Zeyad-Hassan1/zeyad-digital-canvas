@@ -48,13 +48,32 @@ const Hero = () => {
           <span>Cairo, Egypt</span>
         </div>
 
-        {/* CTA */}
-        <div className="mt-12 animate-fade-in-up-delay-3">
+        {/* CTA Buttons */}
+        <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up-delay-3">
+          {/* Glass Button - View Projects */}
+          <a 
+            href="#projects" 
+            className="group relative px-8 py-4 rounded-xl font-semibold text-foreground border border-primary/30 backdrop-blur-md bg-primary/10 hover:bg-primary/20 hover:border-primary/50 transition-all duration-300 hover:shadow-[0_0_30px_hsl(165_60%_42%/0.3)]"
+          >
+            <span className="relative z-10 flex items-center gap-2">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+              </svg>
+              View My Projects
+            </span>
+          </a>
+
+          {/* Solid Button - Get in Touch */}
           <a 
             href="#contact" 
-            className="inline-block bg-primary text-primary-foreground font-semibold px-8 py-4 rounded-lg hover-lift hover-glow"
+            className="group relative px-8 py-4 rounded-xl font-semibold text-primary-foreground bg-gradient-to-r from-primary to-accent hover:shadow-[0_0_40px_hsl(165_60%_42%/0.4)] transition-all duration-300 hover:scale-105"
           >
-            Get In Touch
+            <span className="relative z-10 flex items-center gap-2">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              Get In Touch
+            </span>
           </a>
         </div>
 
