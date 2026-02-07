@@ -1,32 +1,25 @@
 const projects = [
   {
-    title: "E-Commerce API",
-    description: "RESTful API for a complete e-commerce platform with authentication, product management, orders, and payment integration.",
-    technologies: ["Laravel", "MySQL", "Redis", "Stripe API"],
-    features: ["JWT Auth", "Role-based Access", "Payment Gateway", "Order Tracking"],
-    status: "Completed",
-  },
-  {
-    title: "Task Management System",
-    description: "A robust task management backend with team collaboration features, real-time notifications, and advanced filtering.",
-    technologies: ["Laravel", "PostgreSQL", "Pusher", "Laravel Echo"],
-    features: ["Real-time Updates", "Team Workspaces", "File Attachments", "Activity Logs"],
-    status: "Completed",
-  },
-  {
-    title: "Booking & Reservation API",
-    description: "Scalable booking system for hotels and restaurants with availability management and automated reminders.",
-    technologies: ["Laravel", "MySQL", "Queue Jobs", "Twilio"],
-    features: ["Calendar Integration", "SMS Notifications", "Multi-tenant", "Analytics"],
-    status: "In Progress",
-  },
-  {
-    title: "Blog & CMS Platform",
-    description: "Content management system with multi-author support, SEO optimization, and media management.",
-    technologies: ["Laravel", "MySQL", "Eloquent ORM", "Blade"],
-    features: ["Rich Text Editor", "SEO Tools", "Media Library", "Analytics Dashboard"],
-    status: "Completed",
-  },
+  title: "MiniShop",
+  description: "A Laravel-based mini e-commerce application with product management, cart functionality, and basic order flow.",
+  technologies: ["Laravel", "MySQL", "Blade", "Bootstrap"],
+  features: ["Product Management", "Shopping Cart", "Order Flow", "MVC Architecture"],
+  status: "Completed",
+},
+{
+  title: "Todo App",
+  description: "A task management application built with Laravel that allows users to create, update, and manage daily tasks efficiently.",
+  technologies: ["Laravel", "MySQL", "Blade"],
+  features: ["CRUD Operations", "Task Status Management", "Clean UI", "MVC Structure"],
+  status: "Completed",
+},
+{
+  title: "Blog Platform",
+  description: "A Laravel blog system with post management, user-friendly interface, and structured content handling.",
+  technologies: ["Laravel", "MySQL", "Blade"],
+  features: ["Post Management", "CRUD System", "MVC Pattern", "Responsive Layout"],
+  status: "Completed",
+},
 ];
 
 const Projects = () => {
