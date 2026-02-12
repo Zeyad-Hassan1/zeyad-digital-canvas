@@ -68,7 +68,7 @@ const Contact = () => {
           {/* CTA */}
           <div className="mt-12 text-center">
             <a 
-              href="tel:+201125828181"
+              href="https://wa.me/201125828181"
               className="inline-block bg-primary text-primary-foreground font-semibold px-10 py-4 rounded-lg hover-lift hover-glow text-lg"
             >
               Let's Work Together
