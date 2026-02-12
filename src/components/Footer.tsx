@@ -41,7 +41,7 @@ const Footer = () => {
               </svg>
             </a>
             <a 
-              href="https://linkedin.com/in/zeyadhassan" 
+              href="https://www.linkedin.com/in/zeyad-hassan-8a68a2253?utm_source=share_via&utm_content=profile&utm_medium=member_ios" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
