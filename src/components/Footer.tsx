@@ -28,6 +28,17 @@ const Footer = () => {
           </div>
 
           {/* Social Media Links */}
+          <a 
+  href="https://wa.me/201125828181"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-muted-foreground hover:text-primary transition-colors duration-300"
+  aria-label="WhatsApp"
+>
+  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967..."/>
+  </svg>
+</a>
           <div className="flex items-center gap-4">
             <a 
               href="https://github.com/Zeyad-Hassan1" 
