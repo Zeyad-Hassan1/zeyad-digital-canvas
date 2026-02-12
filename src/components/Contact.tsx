@@ -29,7 +29,7 @@ const Contact = () => {
 
             {/* Email Card */}
             <a 
-              href="mailto:zeyadhassan@example.com"
+              href="mailto:zeyadh556@gmail.com"
               className="card-gradient border border-border rounded-2xl p-8 hover-lift hover-glow group block"
             >
               <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mb-6 group-hover:bg-primary/30 transition-colors duration-300">
