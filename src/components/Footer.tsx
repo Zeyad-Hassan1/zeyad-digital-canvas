@@ -63,7 +63,7 @@ const Footer = () => {
   </svg>
 </a>
             <a 
-              href="/resume.pdf" 
+              href="/Zeyad_Hassan_Backend Developer (Laravel_PHP)_resume.pdf"
               download="Zeyad_Hassan_Resume.pdf"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
               aria-label="Download Resume"
