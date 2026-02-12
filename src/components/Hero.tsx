@@ -78,7 +78,7 @@ const Hero = () => {
 
           {/* Download Resume Button */}
           <a 
-            href="/resume.pdf" 
+            href="/Zeyad_Hassan_Backend Developer (Laravel_PHP)_resume.pdf" 
             download="Zeyad_Hassan_Resume.pdf"
             className="group relative px-8 py-4 rounded-xl font-semibold text-foreground border border-border backdrop-blur-md bg-card/50 hover:bg-card hover:border-primary/30 transition-all duration-300"
           >
